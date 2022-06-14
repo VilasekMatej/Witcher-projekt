@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Zaklínač</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/style.css" rel="stylesheet" />
+
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="../index.html"><i class="fas fa-home"></i> Home</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="../bestiar/index.html">Bestiář</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../postavy/index.html">Postavy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../mapa/index.html">Mapy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#kviz">Kvíz</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead2" id="kviz">
+        <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+            <div class="d-flex justify-content-center">
+                <div class="text-center">
+                    <h1 class="mx-auto my-0 text-uppercase">Kvíz</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="about-section text-center">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="text-white mb-4">MAPA SVĚTA</h2>
+                    <hr>
+                    <p class="text-white-50 text-justify">
+                        V románech není žádná kanonická mapa světa ani kontinentu . Četní fanoušci a
+                        adaptace se pokusili vytvořit si vlastní a Andrzej Sapkowski o nich řekl, že jsou „víceméně
+                        správné“. Sám
+                        autor má mapu podle varianty Stanislava Komárka , kterou později vylepšil, ale rozhodl se ji
+                        nezveřejnit,
+                        protože svět se v jeho mysli neustále vyvíjí.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main>
+        <h2 class="bg-danger text-light text-center p-2">Formulář studenta</h2>
+        <div class="container pt-2 pb-2 border">
+            <form>
+                <div class="mb-3 row">
+                    <label for="jmeno" class="col-sm-3 size col-form-label">Jméno studenta</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" name="jmeno" id="jmeno"
+                            placeholder="Zadej křestní jméno">
+                    </div>
+                    <div class="alert alert-success collapse">
+                        Tony
+                    </div>
+
+                </div>
+
+                <div class="mb-3 row">
+                    <label for="jmeno" class="col-sm-3 size col-form-label">Datum narození</label>
+                    <div class="col-sm-9">
+                        <input type="date" class="form-control" name="narozeni" id="narozeni">
+                    </div>
+                    <div class="alert alert-success collapse">
+                        10.4.1998
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="email" class="col-sm-3 size col-form-label">E-mail</label>
+                    <div class="col-sm-9">
+                        <input type="email" class="form-control" name="email" id="email">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="barva" class="col-sm-3 size col-form-label">Preferovaná barva</label>
+                    <div class="col-sm-9">
+                        <input type="color" class="form-control" name="barva" id="barva">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="heslo" class="col-sm-3 size col-form-label">Heslo</label>
+                    <div class="col-sm-9">
+                        <input type="password" class="form-control" name="heslo" id="heslo">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="absence" class="col-sm-3 size col-form-label">Absence</label>
+                    <div class="col-sm-3">
+                        <input type="number" class="form-control" name="absence" id="absence" value="0" min="0"
+                            max="1200" step="1">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="pohlavi" class="col-sm-3 size col-form-label">Pohlaví</label>
+                    <div class="col-sm-9">
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label">
+                                <input class="form-check-input size" type="radio" name="pohlavi" id="muz" value="muž"> Muž
+                            </label>
+                            <div class="form-check form-check-inline">
+                                <label class="form-check-label">
+                                    <input class="form-check-input size" type="radio" name="pohlavi" id="zena" value="žena"
+                                        checked>
+                                    Žena
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="prohlizec" class="col-sm-3 size col-form-label">Prohlížeč</label>
+                        <div class="col-sm-9">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="chrome" id="chrome" value="Google Chrome checked>
+                                <label class="form-check-label size" for="chrom"></label>
+                                Google Chrome
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="firefox" id="firefox" value="Mozilla Firefox>
+                              <label class=" form-check-label size" for="firefox">
+                                Mozilla Firefox
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="opera" id="opera" value="Opera>
+                                <label class=" form-check-label size" for="opera">
+                                Opera
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="obor" class="col-sm-3 size col-form-label">Studijní obor</label>
+                        <div class="col-sm-3">
+                            <div class="mb-3">
+                                <label for="" class="form-label"></label>
+                                <select class="form-control" name="obor" id="obor" multiple>
+                                    <option value="IT">Informační technologie</option>
+                                    <option value="SV" selected>Strojírenství</option>
+                                    <option value="UO">Umělecké obory</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="poznamka" class="col-sm-3 size col-form-label">Poznámka</label>
+                    <div class="col-sm-9">
+                        <div class="mb-3">
+                            <div class="mb-3">
+                                <textarea class="form-control" name="poznamka" id="poznamka"
+                                    rows="6">Tady bude poznámka</textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <div class="offset-sm-3 col-sm-9">
+
+                        <button type="button" class="btn btn-primary size btn-lg" data-bs-toggle="modal" data-bs-target="#modelId">Potvrdit</button>
+                        <button type="button" data-bs-toggle="collapse" data-bs-target=".alert-success"
+                            class="btn size btn-danger">Správná odpověď</button>
+                    </div>
+                </div>
+            </form>
+            <!-- Button trigger modal -->
+            
+            <!-- Modal -->
+            <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header bg-primary">
+                            <h5 class="modal-title text-white">Omluva uživatelům</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Tento formůlář je bohužel nefunkční, protože ještě neprogramujeme webové aplikace.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zavřít</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <!-- Projects-->
+
+
+    <!-- Signup-->
+
+    <!-- Footer-->
+    <footer class="footer bg-black small text-center text-white-50">
+        <div class="container  px-4 px-lg-5">&copy;Copyright 2022: Matěj Vilášek, &reg; IT1</div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="../js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+
+</html>

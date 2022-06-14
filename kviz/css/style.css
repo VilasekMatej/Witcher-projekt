@@ -64,7 +64,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #202020;
+  --bs-body-color: white;
   --bs-body-bg: #fff;
 }
 
@@ -11575,7 +11575,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg2.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../img/bg1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11765,7 +11765,7 @@ body {
 }
 
 .size{
-  font-size: 18px;
+  font-size: 25px;
 }
 
 main{
@@ -11802,6 +11802,9 @@ table{
 th, td{
   padding: 5px;
 }
+th{
+  padding-left: 10px;
+}
 .border{
   padding-bottom: 100px;
   border-collapse: collapse;
@@ -11810,9 +11813,7 @@ th, td{
   padding-top: 15px;
 }
 h4, h3{
-  padding-top: 50px;
-}
-h3{
+  padding-top: 40px;
   padding-left: 10px;
 }
 li{
@@ -11825,6 +11826,13 @@ li{
 .text-justify{
   text-align: justify;
 }
-h2{
-  color: transparent;
+img{
+    padding-left: 200px;
+    padding-top: 10px;
+}
+p{
+    padding-top: 10px;
+}
+.img{
+    padding-right: auto;
 }
